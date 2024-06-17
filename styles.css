@@ -135,7 +135,7 @@ nav {
     margin: 15px;
 }
 
-/*Servivcios*/
+/*SERVICIOS*/
 /*Content*/
 .content{
     height: auto;
@@ -143,6 +143,7 @@ nav {
 }
 .texto_content{
     margin-bottom: 24px;
+    justify-content: center;
 }
 .titulo_carta{
     margin-bottom: 24px;
