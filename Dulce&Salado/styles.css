@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+/*Nav - Footer*/
+/*Navegacion*/
+nav {
+    background-color: #ffafc9;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left a {
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 80px;
+    padding: 10px;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+    align-items: center;
+    border-bottom: 2px solid white;
+    background-color: #d37593;
+    width: 90px;
+    text-align: center;
+}
+.nav-left a:hover {
+    border-bottom: 2px solid #000000;
+    transition: 1s;
+    transform: scale(1.1);
+} 
+.nav-right img {
+    height: 60px;
+}
+
+/*footer*/
+.footer {
+    background-color: #ffafc9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+}
+
+/*INDEX - INICIO*/
+/*header*/
+.header_index {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Imagenes/Background_1.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*header-text*/
+.header_index_text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+/*Horarios*/
+.horarios {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 20px;
+    flex-direction: column;
+}
+/*Main*/
+.main{
+    background-color: #ffafc9;
+}
+.main-text{
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/*Imagenes*/
+.contenedor-imagenes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contenedor-imagenes img{
+    width: 10%;
+    height: auto;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/*CONTACTO*/
+/*header*/
+.header_contacto{
+    margin-top: 80px;
+    text-align: center;
+}
+/*mapa*/
+.mapa {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/*redes sociales*/
+.contact{
+    text-align: center;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.redes-sociales img {
+    width: 30px;
+    margin: 15px;
+}
+
+/*Servivcios*/
+/*Content*/
+.content{
+    height: auto;
+    padding: 24px;
+}
+.texto_content{
+    margin-bottom: 24px;
+}
+.titulo_carta{
+    margin-bottom: 24px;
+}
+/*Lista*/
+.lista{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.lista li{
+    margin-bottom: 10px;
+}
+/*Grid*/
+.grid{
+    margin: 10px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    display: grid;
+}
+.carta_grid{
+    padding: 24px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    width: 90%;
+}
+.carta_grid:hover{
+    transform: scale(1.09);
+    transition: 0.4s;
+}
+
+
+/*Carta*/
+.carta_dias{
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+.dia{
+    margin-bottom: 24px;
+}
+.almuerzo{
+    margin-bottom: 24px;
+    gap: 10px;
+    display: grid;
+}
+.texto_carta{
+    margin-bottom: 24px;
+    text-align: center;
+}
