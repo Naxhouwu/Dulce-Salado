@@ -144,6 +144,7 @@ nav {
 .texto_content{
     margin-bottom: 24px;
     justify-content: center;
+    align-items: center;
 }
 .titulo_carta{
     margin-bottom: 24px;
