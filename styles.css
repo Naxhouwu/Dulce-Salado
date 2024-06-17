@@ -145,6 +145,7 @@ nav {
     margin-bottom: 24px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 .titulo_carta{
     margin-bottom: 24px;
